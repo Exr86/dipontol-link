@@ -1,0 +1,51 @@
+body {
+    background-image: url(myphoto.jpg); /* or 'images/myphoto.jpg' if in a subfolder */
+    background-size: cover; /* Makes the image cover the whole background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    color: white; /* Sets the text color to white for better contrast */
+    font-family: 'Times New Roman', Times, serif; /* Sets a clean font for the text */
+}
+
+h1 {
+    text-align: center; /* Centers the heading */
+    font-size: 3em; /* Increases the font size of the heading */
+    margin-top: 50px; /* Adds space above the heading */
+    margin-bottom: 20px; /* Adds space below the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adds a shadow to the text for better visibility */
+}
+.bg-link {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url('valorant1.jpg'); /* Ganti dengan nama file gambarmu */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Warna teks */
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 100px; /* Agar teks di tengah */
+    text-align: center;
+    border-radius: 100%;
+}
+.bg-link.mlbb {
+    background-image: url('mlbb.jpg');
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    text-indent: -9999px; /* Sembunyikan teks jika ada */
+}
+.bg-link.Roblox {
+    background-image: url('Roblox.jpg');
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    text-indent: -9999px; /* Sembunyikan teks jika ada */
+}
