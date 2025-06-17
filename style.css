@@ -1,17 +1,17 @@
-/* CSS biasa untuk desktop */
+
 body {
   background: #fff;
   font-size: 18px;
 }
 
-/* Media query untuk layar maksimal 600px (misal HP) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (orientation: portrait) {
   body {
-    background: #222;
     font-size: 16px;
+    background: #222;
   }
   .header {
-    font-size: 1.2em;
+    font-size: 1.1em;
+    padding: 10px;
   }
 }
     body {
