@@ -1,7 +1,30 @@
+/* CSS biasa untuk desktop */
 body {
-    background-image: url(myphoto.jpg); /* or 'images/myphoto.jpg' if in a subfolder */
+  background: #fff;
+  font-size: 18px;
+}
+
+/* Media query untuk layar maksimal 600px (misal HP) */
+@media screen and (max-width: 600px) {
+  body {
+    background: #222;
+    font-size: 16px;
+  }
+  .header {
+    font-size: 1.2em;
+  }
+}
+    body {
+        background-image: url(ambatol.jpg); /* or 'images/myphoto.jpg' if in a subfolder */
+        background-size: cover; /* Makes the image cover the whole background */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+        background-position: center; /* Centers the image */
+    }
+
+body {
+    background-image: url(ambatol.jpg); /* or 'images/myphoto.jpg' if in a subfolder */
     background-size: cover; /* Makes the image cover the whole background */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-repeat: repeat; /* Prevents the image from repeating */
     background-position: center; /* Centers the image */
     color: white; /* Sets the text color to white for better contrast */
     font-family: 'Times New Roman', Times, serif; /* Sets a clean font for the text */
@@ -37,7 +60,7 @@ h1 {
     background-size: cover;
     background-position: center;
     border-radius: 100%;
-    text-indent: -9999px; /* Sembunyikan teks jika ada */
+    text-indent: -9999px; 
 }
 .bg-link.Roblox {
     background-image: url('Roblox.jpg');
@@ -47,5 +70,66 @@ h1 {
     background-size: cover;
     background-position: center;
     border-radius: 100%;
-    text-indent: -9999px; /* Sembunyikan teks jika ada */
+    text-indent: -9999px; 
+}
+.bg-link.ff {
+    background-image: url('ff.jpeg');
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    text-indent: -9999px; 
+}
+.bg-link.mc {
+    background-image: url('mc.jpg');
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    text-indent: -9999px; 
+}
+.bg-link.pubg {
+    background-image: url('pubg.jpeg');
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    text-indent: -9999px; 
+
+}
+.bg-link.GFD {
+    background-image: url('GFD.jpg');
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    text-indent: -9999px;
+}
+.video-center {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.video-crop {
+    width: 300px;      /* lebar area tampilan */
+    height: 300px;     /* tinggi area tampilan */
+    overflow: hidden;  /* bagian di luar area akan disembunyikan */
+    margin: 30px auto; /* tengah halaman */
+    border-radius: 16px; /* opsional: sudut melengkung */
+}
+
+.video-crop video {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;        /* crop video agar memenuhi area */
+    object-position: center;  /* posisi tengah */
+    display: block;
 }
